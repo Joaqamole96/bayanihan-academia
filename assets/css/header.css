@@ -1,0 +1,78 @@
+/* Header Container */
+.header-container {
+    padding: 10px;
+
+    width: 100%;
+    height: auto;
+}
+
+    /* Header */
+    .header {
+        display: flex;
+        align-items: center;
+
+        width: 100%;
+        height: auto;
+    }
+
+        /* Logo */
+        /* .logo__wrapper {} */
+
+            /* .logo__link {} */
+
+            .logo {
+                width: 45px;
+                height: auto;
+            }
+
+        /* Title */
+        /* .title__wrapper {} */
+
+            /* .title__link {} */
+
+            .title {
+                margin: 0 15px;
+            }
+
+        /* Operations (Account and Settings) */
+        .ops__wrapper {
+            flex: 1 1;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 20px;
+        }
+
+            .account,
+            .settings {
+                margin-right: 30px;
+            }
+
+            .account__icon,
+            .settings__icon {
+                width: 30px;
+                height: auto;
+            }
+
+    /* Navigation */
+    .nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+        .nav-item {
+            flex: 0 1 33.333%;
+            display: flex;
+            justify-content: center;
+        }
+
+            .nav-item__link {
+                display: flex;
+            }
+
+                .nav-item__icon {
+                    width: auto;
+                    height: 30px;
+                }
+
+                .nav-item__label {
+                }
