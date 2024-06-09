@@ -1,12 +1,12 @@
 <?php
-    $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    $uri = $_SERVER['REQUEST_URI'];
     switch ($uri) {
         case '':
         case '/':
             include_once 'controllers/home_controller.php';
             break;
         default:
-            include_once 'views/404_view.php';
+            include_once 'views/notfound_view.php';
             break;
     }
 ?>

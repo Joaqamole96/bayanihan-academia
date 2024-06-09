@@ -1,39 +1,28 @@
 .header {
-    display: flex;
     align-items: center;
 
+    border: 1px solid black;
     padding: 1.25vmin 3.75vmin;
-
-    background-color: #DDD;
 }
 
 .header__icon {
+    margin: 0 10px;
     width: 40px;
     height: auto;
-}
 
-.logo {
-    margin-right: 15px;
+    cursor: pointer;
 }
 
 .header__title {
     margin-right: 100px;
 }
 
-.nav {
-    display: flex;
-}
-
 .nav__item {
     margin: 0 25px;
 }
 
-.avatar__wrapper {
+#avatar-wrapper {
     margin-left: auto;
-}
-
-.avatar {
-    cursor: pointer;
 }
 
 .dropdown {

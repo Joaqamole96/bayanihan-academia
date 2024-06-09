@@ -24,6 +24,10 @@ a {
 
 /* ---------- Class Styles ---------- */
 
+.flex-container {
+    display: flex;
+}
+
 /* ----- Text ----- */
 
 .text--small {
