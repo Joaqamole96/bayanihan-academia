@@ -1,40 +1,50 @@
-<div class="header-container">
-    <div class="header">
-        <div class="logo__wrapper">
-            <a href="/" class="logo__link">
-                <img class="logo" src="<?= $header_content['logo_src'] ?>" alt="bynha-logo">
-            </a>
-        </div>
-        <div class="title__wrapper">
-            <a href="/" class="title__link">
-                <h1 class="title"><?= $header_content['title'] ?></h1>
-            </a>
-        </div>
-        <div class="ops__wrapper">  
-            <div class="account">
-                <a href="/accounts" class="account__link">
-                    <img class="account__icon" src="<?= $header_content['account_icon_src'] ?>" alt="account">
+<link rel="stylesheet" href="/assets//css/header.css">
+<script src="/assets/js/header.js"></script>
+
+<header class="header">
+    <a class="hyperlink   hyperlink--home" href="/">
+        <img class="header__icon   logo" src="<?= $header_content['logo_icon_src'] ?>" alt="Logo">
+    </a>
+    <nav class="nav">
+        <a class="hyperlink   hyperlink--match" href="/match">
+            <div class="nav__item">
+                Match
+            </div>
+        </a>
+        <a class="hyperlink   hyperlink--inventory" href="/inventory">
+            <div class="nav__item">
+                Inventory
+            </div>
+        </a>
+        <a class="hyperlink   hyperlink--store" href="/store">
+            <div class="nav__item">
+                Store
+            </div>
+        </a>
+    </nav>
+    <div class="header__wrapper   avatar__wrapper">
+        <img class="header__icon   avatar" id="avatar-icon" src="<?= $header_content['avatar_icon_src'] ?>" alt="Avatar">
+        <div class="dropdown" id="avatar-dropdown">
+            <div class="dropdown__item">
+                <div class="dropdown__icon">
+
+                </div>
+                <a href="/account">
+                    <div class="dropdown__label">
+                        My Account
+                    </div>
                 </a>
             </div>
-            <div class="settings">
-                <a href="/settings" class="settings__link">
-                    <img class="settings__icon" src="<?= $header_content['settings_icon_src'] ?>" alt="settings">
+            <div class="dropdown__item">
+                <div class="dropdown__icon">
+
+                </div>
+                <a href="/settings">
+                    <div class="dropdown__label">
+                        Settings
+                    </div>
                 </a>
             </div>
         </div>
     </div>
-    <div class="nav">
-        <div class="nav-item">
-            <a href="/agency" class="nav-item__link">
-                <img class="nav-item__icon" src="<?= $header_content['agency_icon_src'] ?>" alt="agency"> 
-                <p class="nav-item__label">My Agency</p>
-            </a>
-        </div>
-        <div class="nav-item">
-            <a href="/battlefield" class="nav-item__link">
-                <img class="nav-item__icon" src="<?= $header_content['battlefield_icon_src'] ?>" alt="battlefield"> 
-                <p class="nav-item__label">Battlefield</p>
-            </a>
-        </div>
-    </div>
-</div>
+</header>

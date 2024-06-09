@@ -1,78 +1,49 @@
-/* Header Container */
-.header-container {
-    padding: 10px;
+.header {
+    display: flex;
+    align-items: center;
 
-    width: 100%;
+    padding: 1.25vmin 3.75vmin;
+
+    background-color: #DDD;
+}
+
+.header__icon {
+    width: 40px;
     height: auto;
 }
 
-    /* Header */
-    .header {
-        display: flex;
-        align-items: center;
+.logo {
+    margin-right: 15px;
+}
 
-        width: 100%;
-        height: auto;
-    }
+.header__title {
+    margin-right: 100px;
+}
 
-        /* Logo */
-        /* .logo__wrapper {} */
+.nav {
+    display: flex;
+}
 
-            /* .logo__link {} */
+.nav__item {
+    margin: 0 25px;
+}
 
-            .logo {
-                width: 45px;
-                height: auto;
-            }
+.avatar__wrapper {
+    margin-left: auto;
+}
 
-        /* Title */
-        /* .title__wrapper {} */
+.avatar {
+    cursor: pointer;
+}
 
-            /* .title__link {} */
+.dropdown {
+    display: none;
+    position: absolute;
+    right: 2.5%;
 
-            .title {
-                margin: 0 15px;
-            }
+    padding: 10px;
+    width: auto;
+    height: auto;
 
-        /* Operations (Account and Settings) */
-        .ops__wrapper {
-            flex: 1 1;
-            display: flex;
-            justify-content: flex-end;
-            margin-right: 20px;
-        }
-
-            .account,
-            .settings {
-                margin-right: 30px;
-            }
-
-            .account__icon,
-            .settings__icon {
-                width: 30px;
-                height: auto;
-            }
-
-    /* Navigation */
-    .nav {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-        .nav-item {
-            flex: 0 1 33.333%;
-            display: flex;
-            justify-content: center;
-        }
-
-            .nav-item__link {
-                display: flex;
-            }
-
-                .nav-item__icon {
-                    width: auto;
-                    height: 30px;
-                }
-
-                .nav-item__label {
-                }
+    background-color: #CCC;
+}
