@@ -11,9 +11,9 @@
                 Match
             </div>
         </a>
-        <a class="hyperlink" id="hyperlink-inventory" href="/inventory">
-            <div class="nav__item" id="nav-inventory">
-                Inventory
+        <a class="hyperlink" id="hyperlink-agency" href="/agency">
+            <div class="nav__item" id="nav-agency">
+                My Agency
             </div>
         </a>
         <a class="hyperlink" id="hyperlink-store" href="/store">

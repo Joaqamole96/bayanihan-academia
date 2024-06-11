@@ -4,12 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>404 - Page Not Found</title>
-        <link rel="stylesheet" href="/assets/css/global.css">
         <link rel="stylesheet" href="/assets/css/notfound.css">
     </head>
     <body>
         <header>
-            <?php include_once 'controllers/header_controller.php'; ?>
+            <?php require_once 'controllers/header_controller.php'; ?>
         </header>
         <main>
             <div class="notfound   flex-container" id="notfound">
